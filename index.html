@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALL HELL BACK</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+    <div id="countdown">10</div>
+<div id="first"></div>
+<div id="second"></div>
+<div id="third"></div>
+</div>
+<script>
+    var a = 10;
+var b = setInterval(function(){
+  if(a <= 0){
+    clearInterval(b);
+     document.getElementById("countdown").innerHTML = "happy independence day!!" + "INDIA";
+      } else 
+        {
+      document.getElementById("countdown").innerHTML = a;
+     }
+   a -= 1;
+}, 1000);
+</script>
+</body>
+</html>
