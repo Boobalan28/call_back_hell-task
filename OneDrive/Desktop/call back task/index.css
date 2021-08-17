@@ -1,0 +1,41 @@
+body{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+#first{
+  width:100%;
+  height:500px;
+  background-color:orange;
+  border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+ }
+#second{
+  width:100%;
+  height:500px;
+  background-color:white;
+}
+#third{
+  width:100%;
+  height:500px;
+  background-color:green;
+  border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#countdown{
+  color:blue;
+  font-size:25px;
+  position:absolute;
+}
